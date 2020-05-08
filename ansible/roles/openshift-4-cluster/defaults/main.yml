@@ -48,7 +48,7 @@ coreos_download_url: "https://mirror.openshift.com/pub/openshift-v4/dependencies
 
 # How to get the checksum:
 #  ansible -m stat -a 'path=/var/lib/libvirt/images/rhcos-4.3.0.qcow2' localhost  | grep checksum
-coreos_checksum: "c6d1141efea2a1799e0d657ca39c3663bf05fdbd"
+coreos_checksum: "5036fb9f920266fb8bb256690e8a0e63f5bbc156"
 coreos_image_location: /var/lib/libvirt/images/rhcos-{{ coreos_version }}.qcow2
 
 
